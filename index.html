@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthyDay — Що їсти зранку та протягом дня</title>
+    <link rel="icon" type="image/x-icon" href="./static/images/favicon.ico">
+    <link rel="stylesheet" href="./static/styles/reset.css">
+    <link rel="stylesheet" href="./static/lib/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/styles/styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="#">🥗 HealthyDay</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                ☰
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#breakfast">Сніданок</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#schedule">Режим дня</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#plate">Тарілка здоров'я</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tips">Поради</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <span class="badge bg-success-soft text-success mb-3 px-3 py-2">Збалансоване харчування</span>
+                    <h1 class="display-5 fw-bold mb-3">Що краще їсти зранку та як будувати раціон протягом дня</h1>
+                    <p class="lead text-muted mb-4">
+                        Перший прийом їжі задає рівень енергії, концентрації та стабільний апетит до вечора. Розбираємо оптимальний склад сніданку та режим харчування без складних дієт.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#breakfast" class="btn btn-success">Що їсти на сніданок</a>
+                        <a href="#schedule" class="btn btn-outline-success">Режим прийому їжі</a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="p-4 bg-white rounded-4 shadow-sm border">
+                        <h5 class="fw-bold mb-3">⚡ Формула здорового ранку</h5>
+                        <ul class="mb-0 d-flex flex-column gap-3">
+                            <li class="d-flex align-items-start gap-2">
+                                <span class="fs-5">💧</span>
+                                <div><strong>Склянка теплої води</strong> — м'яко запускає травлення після сну.</div>
+                            </li>
+                            <li class="d-flex align-items-start gap-2">
+                                <span class="fs-5">🥚</span>
+                                <div><strong>Білок + корисні жири</strong> — дають тривале відчуття ситості на 3–4 години.</div>
+                            </li>
+                            <li class="d-flex align-items-start gap-2">
+                                <span class="fs-5">🌾</span>
+                                <div><strong>Складні вуглеводи</strong> — забезпечують мозок рівною енергією без сонливості.</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="breakfast" class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-2">Що краще їсти на сніданок</h2>
+                <p class="text-muted">Збалансований ранковий прийом їжі поєднує три ключові групи продуктів</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm custom-card">
+                        <div class="card-body p-4">
+                            <div class="icon-box mb-3">🥚</div>
+                            <h5 class="card-title fw-bold">Якісний білок</h5>
+                            <p class="card-text text-muted small">
+                                Яйця (варені, омлет, пашот), кисломолочний сир, грецький йогурт без цукру, індичка або слабосолона риба.
+                            </p>
+                            <span class="badge bg-light text-dark">Ситість і відновлення</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm custom-card">
+                        <div class="card-body p-4">
+                            <div class="icon-box mb-3">🥣</div>
+                            <h5 class="card-title fw-bold">Складні вуглеводи</h5>
+                            <p class="card-text text-muted small">
+                                Вівсянка тривалого варіння, гречка, кіноа, цільнозерновий або житній хліб на заквасці.
+                            </p>
+                            <span class="badge bg-light text-dark">Повільна енергія</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm custom-card">
+                        <div class="card-body p-4">
+                            <div class="icon-box mb-3">🥑</div>
+                            <h5 class="card-title fw-bold">Корисні жири</h5>
+                            <p class="card-text text-muted small">
+                                Авокадо, волоські горіхи чи мигдаль, насіння льону або чіа, оливкова олія першого віджиму.
+                            </p>
+                            <span class="badge bg-light text-dark">Робота мозку</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 border-0 shadow-sm custom-card">
+                        <div class="card-body p-4">
+                            <div class="icon-box mb-3">🚫</div>
+                            <h5 class="card-title fw-bold text-danger">Чого уникати</h5>
+                            <p class="card-text text-muted small">
+                                Солодкі пластівці, здоба, цукерки та кава натщесерце — вони дають різкий стрибок глюкози і втому через годину.
+                            </p>
+                            <span class="badge bg-danger text-white">Швидкий голод</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold mb-2">Прийом їжі протягом дня</h2>
+                        <p class="text-muted">Як розподілити раціон, щоб залишатися продуктивним і не переїдати ввечері</p>
+                    </div>
+
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="fw-bold mb-0">🌅 Сніданок</h5>
+                                    <span class="badge bg-success">07:00 – 09:00</span>
+                                </div>
+                                <p class="text-muted mb-2"><strong>Акцент:</strong> білки + жири + складні вуглеводи.</p>
+                                <p class="small text-secondary mb-0">Приклад: омлет із 2 яєць, тост із цільнозернового хліба, авокадо та свіжі овочі.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="fw-bold mb-0">☀️ Обід</h5>
+                                    <span class="badge bg-success">12:00 – 14:30</span>
+                                </div>
+                                <p class="text-muted mb-2"><strong>Акцент:</strong> найситніший прийом їжі за день.</p>
+                                <p class="small text-secondary mb-0">Приклад: запечена курка або риба, гречка чи бурий рис + велика порція салату.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="fw-bold mb-0">🍎 Полуденок</h5>
+                                    <span class="badge bg-warning text-dark">16:00 – 17:00</span>
+                                </div>
+                                <p class="text-muted mb-2"><strong>Акцент:</strong> легке підживлення без важкості.</p>
+                                <p class="small text-secondary mb-0">Приклад: грецький йогурт, яблуко або банан із жменею горіхів.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="fw-bold mb-0">🌙 Вечеря</h5>
+                                    <span class="badge bg-primary">19:00 – 20:30</span>
+                                </div>
+                                <p class="text-muted mb-2"><strong>Акцент:</strong> легкий білок + клітковина (за 3 год до сну).</p>
+                                <p class="small text-secondary mb-0">Приклад: тушкована риба або сир + запечені чи свіжі овочі без важких гарнірів.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="plate" class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-3">Правило здорової тарілки</h2>
+                    <p class="text-muted mb-4">
+                        Щоб не рахувати калорії, візуально діли звичайну тарілку на три сектори під час основного прийому їжі:
+                    </p>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between fw-bold mb-1">
+                            <span>🥦 50% — Овочі, зелень та ягоди</span>
+                            <span class="text-success">Половина тарілки</span>
+                        </div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-success" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between fw-bold mb-1">
+                            <span>🍗 25% — Білки (м'ясо, риба, яйця, бобові)</span>
+                            <span class="text-warning">Чверть тарілки</span>
+                        </div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-warning" style="width: 25%"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex justify-content-between fw-bold mb-1">
+                            <span>🍚 25% — Складні вуглеводи (крупи, макарони)</span>
+                            <span class="text-info">Чверть тарілки</span>
+                        </div>
+                        <div class="progress" style="height: 12px;">
+                            <div class="progress-bar bg-info" style="width: 25%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-4 rounded-4 bg-light border">
+                        <h5 class="fw-bold mb-3">💡 3 швидкі ідеї сніданку за 10 хвилин</h5>
+                        <div class="d-flex flex-column gap-2">
+                            <p class="mb-0"><strong>1. Класичний:</strong> 2 варені яйця + вівсянка з ягодами та насінням льону.</p>
+                            <p class="mb-0"><strong>2. Тостовий:</strong> цільнозерновий хліб + крем-сир + лосось або тунець + зелень.</p>
+                            <p class="mb-0"><strong>3. Сирний:</strong> кисломолочний сир (5%) + банан + волоські горіхи та кориця.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tips" class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Базові правила здорового прийому їжі</h2>
+            </div>
+            <div class="row g-3 text-center">
+                <div class="col-md-4">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                        <div class="fs-2 mb-2">📵</div>
+                        <h6 class="fw-bold mb-1">Їж без гаджетів</h6>
+                        <p class="small text-muted mb-0">Мозок вчасно фіксує насичення, і ти не з'їдаєш зайвого.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                        <div class="fs-2 mb-2">🚰</div>
+                        <h6 class="fw-bold mb-1">Пий достатньо води</h6>
+                        <p class="small text-muted mb-0">Часто організм плутає легку спрагу з відчуттям голоду.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+                        <div class="fs-2 mb-2">⏱️</div>
+                        <h6 class="fw-bold mb-1">Інтервал 3–4 години</h6>
+                        <p class="small text-muted mb-0">Уникай хаотичних перекусів, щоб травлення працювало стабільно.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p class="mb-1 small">HealthyDay — Статичний лендінг про здоровий сніданок та режим харчування</p>
+            <a href="#" class="text-success small text-decoration-none">↑ Повернутися нагору</a>
+        </div>
+    </footer>
+
+    <script src="./static/lib/jquery-4.1.0.min.js"></script>
+    <script src="./static/lib/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="./static/scripts/main.js"></script>
+</body>
+</html>
